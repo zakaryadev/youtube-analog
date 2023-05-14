@@ -1,0 +1,34 @@
+.Navbar {
+  height: 56px;
+  background: var(--dark-800);
+  color: var(--light-100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  .Wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      height: 20px;
+    }
+    .SearchInput {
+      margin: 0 60px;
+    }
+    .Icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      img {
+        cursor: pointer;
+      }
+      .Avatar {
+        height: 32px;
+        border-radius: 32px;
+      }
+    }
+  }
+}

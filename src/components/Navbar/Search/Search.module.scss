@@ -1,0 +1,23 @@
+.SearchWrapper {
+  display: flex;
+  align-items: center;
+  .Input {
+    padding: 0 8px;
+    width: 639px;
+    height: 32px;
+    background: var(--dark-900);
+    color: var(--light-100);
+    border: 1px solid var(--light-20);
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--light-100);
+    ::placeholder {
+      color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}

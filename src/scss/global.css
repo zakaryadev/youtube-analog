@@ -1,0 +1,23 @@
+:root {
+  /* * Dark */
+  --dark-900: #000000;
+  --dark-800: #121212;
+  --dark-700: #181818;
+  --dark-600: #212121;
+  /* ? Light */
+  --light-100: #FFFFFF;
+  --light-80: rgba(255, 255, 255, 0.8);
+  --light-60: rgba(255, 255, 255, 0.6);
+  --light-40: rgba(255, 255, 255, 0.4);
+  --light-20: rgba(255, 255, 255, 0.2);
+  --light-10: rgba(255, 255, 255, 0.1);
+  /* Blue */
+  --blue-900: #1C62B9;
+  --blue-600: #3EA6FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
